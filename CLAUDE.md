@@ -19,9 +19,9 @@ Patches in this repo assume this exact controller chain (order matters):
 
 Hardware port notation: `B2.1` = button index 1 on controller 2, `O1` = output 1 on master, `L2.1` = LED 1 on controller 2.
 
-## Versioning convention
+## Patch file
 
-Files follow `ptaki_vN.ini` naming. A SessionStart hook automatically creates the next version on each session — never manually bump the version number or create `ptaki_vN.ini` yourself mid-session; the hook handles it.
+The active patch is `ptaki.ini`. Versioning is handled by git — commit after meaningful changes, use git history to review or revert.
 
 ## DROID patch syntax rules
 
